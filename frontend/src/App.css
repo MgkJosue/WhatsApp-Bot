@@ -1,0 +1,158 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #075e54;
+  padding: 20px;
+  color: white;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.App-main {
+  padding: 20px;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.card {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.card h2 {
+  margin-top: 0;
+  color: #075e54;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 10px;
+}
+
+.contact-importer, .contact-list, .message-editor, .media-uploader, .action-buttons {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.contact-importer h2, .contact-list h2, .message-editor h2, .media-uploader h2 {
+  margin-top: 0;
+  color: #075e54;
+}
+
+.file-label {
+  display: block;
+  background-color: #f0f2f5;
+  padding: 12px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  text-align: center;
+  transition: background-color 0.3s;
+}
+
+.file-label:hover {
+  background-color: #e4e6e9;
+}
+
+.message-textarea {
+  width: 100%;
+  min-height: 120px;
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-family: inherit;
+  resize: vertical;
+  box-sizing: border-box;
+}
+
+.contact-table {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.table-header {
+  display: flex;
+  background-color: #f0f2f5;
+  font-weight: bold;
+}
+
+.table-body {
+  max-height: 300px;
+  overflow-y: auto;
+}
+
+.table-row {
+  display: flex;
+  border-bottom: 1px solid #eee;
+}
+
+.table-row:last-child {
+  border-bottom: none;
+}
+
+.table-cell {
+  flex: 1;
+  padding: 12px;
+  text-align: left;
+}
+
+.no-contacts {
+  text-align: center;
+  color: #666;
+  font-style: italic;
+  padding: 20px;
+}
+
+.action-buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+button {
+  background-color: #25D366;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+  flex: 1;
+  margin: 0 10px;
+}
+
+button:hover {
+  background-color: #128C7E;
+}
+
+button:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
+
+.send-button {
+  background-color: #25D366;
+}
+
+.export-button {
+  background-color: #34B7F1;
+}
+
+.send-button:hover {
+  background-color: #128C7E;
+}
+
+.export-button:hover {
+  background-color: #1DA1F2;
+}
